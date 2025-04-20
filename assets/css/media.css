@@ -1,0 +1,188 @@
+@media (max-width: 1200px) {
+    .skill-content-image {
+        padding: 40px 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .tf__about_img {
+        margin-top: 60px;
+    }
+
+    .tf__design_form {
+        margin-top: 30px;
+    }
+
+    .tf__portfolio_item {
+        height: 400px;
+    }
+
+    .blog-btn {
+        top: 0;
+        justify-content: flex-start !important;
+        margin-top: 20px;
+    }
+
+    .blog-text {
+        font-size: 14px;
+    }
+
+    .tf__footer_content {
+        margin-bottom: 50px;
+    }
+
+    .vision-text,
+    .tf__about_text .text {
+        padding-bottom: 30px;
+    }
+
+    .skill-image {
+        height: 320px;
+    }
+
+    .text {
+        margin-bottom: 30px;
+    }
+
+    .modal-body img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tf__about_text:after {
+        display: none;
+    }
+
+    .tf__about_text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .skill-content-image {
+        padding: 60px;
+    }
+
+    .skill {
+        width: 300px;
+    }
+
+    .skill-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal .modal-dialog .modal-content {
+        max-width: 450px;
+        margin: auto;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 430px) {
+    .container {
+        max-width: 360px;
+        margin: auto;
+    }
+
+    .tf__design_text h1 {
+        font-size: 80px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .respo {
+        position: relative;
+        left: -65px;
+    }
+
+    .video {
+        position: relative;
+        left: -80px;
+    }
+
+    .font-55 {
+        font-size: 40px;
+    }
+
+    .work-content {
+        padding: 0 30px 30px;
+    }
+
+    .tf__design_form {
+        padding: 30px;
+    }
+
+    .font-40 {
+        font-size: 36px;
+    }
+
+    .tf__single_testimonial .description::after {
+        display: none;
+    }
+
+    .font-18 {
+        font-size: 16px;
+    }
+
+    .tf__single_testimonial {
+        padding: 20px 15px 20px 20px;
+    }
+
+    .blog {
+        padding: 25px 25px;
+    }
+
+    .tf__subscribe_text form button {
+        position: relative;
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .footer-text {
+        gap: 26px !important;
+    }
+
+    .tf__blog_text {
+        padding: 20px;
+    }
+
+    .skill-content-image {
+        padding: 60px 0;
+    }
+
+    .skill {
+        width: 260px;
+    }
+
+    .skill-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal .modal-dialog .modal-content {
+        max-width: 350px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .comment-inner .tf__design_form {
+        padding: 0;
+    }
+
+    .modal-body img {
+        height: 300px;
+    }
+
+    .websites button {
+        padding: 15px 12px;
+    }
+}
