@@ -5,23 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+
+    <!---------------------------- BootStrap CSS --------------------------------->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!---------------------------- Style CSS --------------------------------->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!---------------------------- Media CSS --------------------------------->
     <link rel="stylesheet" href="./assets/css/media.css">
 
+    <!---------------------------- Remix Icon --------------------------------->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
+    <!---------------------------- Swieper CSS --------------------------------->
     <link rel="stylesheet" href="./swiper/swiper.min.css" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!---------------------------- AOS CSS --------------------------------->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
+    <!---------------------------- JQuery CDN --------------------------------->
     <script src="./assets/js/jquery.js"></script>
 </head>
 
 <body>
 
+    <!---------------------------- Preloader --------------------------------->
     <div id="preloader"></div>
+    <!---------------------------- Preloader --------------------------------->
 
+    <!---------------------------- Starting Of Header --------------------------------->
     <header>
         <nav>
             <div class="container nav-bg gx-0">
@@ -101,15 +114,19 @@
             </div>
         </nav>
     </header>
+    <!---------------------------- Ending Of Header --------------------------------->
 
+    <!---------------------------- Starting Of Main --------------------------------->
     <main>
+
+    <!-------------------------- Starting Of First Section ----------------------------->
         <section class="tf__banner">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-12">
                         <div class="tf__banner-text">
                             <h1 class="h1 text-white mb-4">
-                                <b>Hi, I'm SHIV PASSINATE CODER</b>
+                                <b>Hi, I'm SHIV PASSIONATE CODER</b>
                             </h1>
                             <p class="mb-5">
                                 I'm a passionate full stack developer with a mission to create delightful and intuitive
@@ -139,10 +156,12 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of First Section ----------------------------->
 
+    <!-------------------------- Starting Of Second Section ----------------------------->
         <section class="pt-130">
             <div class="container">
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-lg-9 col-12 m-auto">
                         <div class="service-text">
                             <p class="body-color fs-4 text-center fw-medium">MY SERVICE</p>
@@ -152,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="work-content">
                             <div class="logo">
@@ -198,11 +217,13 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of Second Section ----------------------------->
 
+    <!-------------------------- Starting Of Third Section ----------------------------->
         <section class="pt-130">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-7 col-12" data-aos="fade-up-right">
+                    <div class="col-lg-7 col-12" >
                         <div class="tf__section_heading">
                             <h4 class="body-color">ABOUT ME</h4>
                             <div class="vision-text text-white font-55 fw-900 pb-80">
@@ -219,7 +240,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-8 col-12" data-aos="fade-up-right">
+                    <div class="col-lg-4 col-md-8 col-12">
                         <div class="tf__about_img">
                             <img src="./images/profile.jpg" alt="" class="img-fluid w-100">
                         </div>
@@ -238,11 +259,13 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of Third Section ----------------------------->
 
+    <!-------------------------- Starting Of Fourth Section ----------------------------->
         <section class="m-120">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-12" data-aos="fade-up-right">
+                    <div class="col-lg-6 col-12">
                         <div class="tf__design_text text-white mb-4">
                             <h1>
                                 Coding
@@ -254,7 +277,7 @@
                             can also make your website responsive so that it can run without any problem in every
                             device..
                         </p>
-                        <div class="row" data-aos="fade-up-right">
+                        <div class="row">
                             <div class="col-6">
                                 <div class="tf__design_counter">
                                     <span class="icon">
@@ -275,17 +298,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12" data-aos="fade-up-right">
+                    <div class="col-lg-6 col-12">
                         <div class="tf__design_form">
                             <div class="text-white font-40 fw-medium mb-4">GET TOUCH ME?</div>
                             <p class="text-color font-18">
                                 we can create and maintain your product website and can also modify website as your wish..
                             </p>
-                            <form action="#">
-                                <input type="text" placeholder="Your Name">
-                                <input type="email" placeholder="Your Email">
-                                <input type="text" placeholder="Phone Number">
-                                <textarea rows="4" placeholder="Message"></textarea>
+                            <form action="https://api.web3forms.com/submit" method="post">
+                                <input type="hidden" name="access_key" value="df2a89f3-f9c8-4737-8ae5-260466ec7bc2">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <input type="text" name="phone" placeholder="Phone Number" required>
+                                <textarea rows="4" name="message" placeholder="Message" required></textarea>
                                 <button type="submit" class="download-btn mt-4">Submit Now</button>
                             </form>
                         </div>
@@ -293,10 +317,12 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of Fourth Section ----------------------------->
 
+    <!-------------------------- Starting Of Fifth Section ----------------------------->
         <section class="pt-130 bg pb-80">
             <div class="container">
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-lg-8 col-12 m-auto">
                         <div class="tf__section_heading">
                             <h5 class="body-color text-center">
@@ -308,8 +334,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-60" data-aos="fade-up-right">
-                    <div class="col-lg-6 col-12">
+                <div class="row mt-60">
+                    <div class="col-md-6 col-12">
                         <div class="tf__single_skills">
                             <span class="fw-medium">2021 - 2022</span>
                             <h3 class="text-white mt-4">SSC Board</h3>
@@ -318,7 +344,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-md-6 col-12">
                         <div class="tf__single_skills">
                             <span class="fw-medium">2023 - 2024</span>
                             <h3 class="text-white mt-4">HSC Board</h3>
@@ -327,7 +353,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-md-6 col-12">
                         <div class="tf__single_skills">
                             <span class="fw-medium">2025 - Current</span>
                             <h3 class="text-white mt-4">BCOM</h3>
@@ -336,7 +362,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-md-6 col-12">
                         <div class="tf__single_skills">
                             <span class="fw-medium">2025 - Current</span>
                             <h3 class="text-white mt-4">Full Stack Developer</h3>
@@ -346,7 +372,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills mt-5" data-aos="fade-up-right">
+                <div class="skills mt-5">
                     <div class="skill-set">
                         <div class="row">
                             <!-- <div class="skill-content d-flex justify-content-between flex-wrap"> -->
@@ -416,7 +442,9 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of Fifth Section ----------------------------->
 
+    <!-------------------------- Starting Of Sixth Section ----------------------------->
         <section class="pt-130 section">
             <div class="container">
                 <div class="row">
@@ -440,7 +468,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-2 filter-portfolio">
+                <div class="row mt-4 filter-portfolio">
                     <div class="col-lg-6 col-md-6 col-12 doob">
                         <a href="https://shivbichve.github.io/DOOB-Website/" target="_blank" class="tf__portfolio_item text-none">
                             <div class="website-image">
@@ -488,10 +516,12 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of Sixth Section ----------------------------->
 
+    <!-------------------------- Starting Of Seventh Section ----------------------------->
         <section class="pt-130">
             <div class="container">
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-md-8 col-12 m-auto mb-4">
                         <div class="tf__section_heading text-center">
                             <h5 class="body-color font-18 fw-medium mb-2
@@ -502,7 +532,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper mySwiper" data-aos="fade-up-right">
+                <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="tf__single_testimonial">
@@ -593,8 +623,10 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of Eighth Section ----------------------------->
 
-        <div class="marque-element mt-120" data-aos="fade-up-right">
+    <!------------------------------- Marque Section ---------------------------------->
+        <div class="marque-element mt-120">
             <marquee direction="left" scrollamount="15">
                 <div class="marque d-flex gap-4">
                     <span>* HTML</span>
@@ -604,10 +636,12 @@
                 </div>
             </marquee>
         </div>
+    <!------------------------------- Marque Section ---------------------------------->
 
+    <!-------------------------- Starting Of Ninth Section ----------------------------->
         <section class="pt-130">
             <div class="container">
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="tf__section_heading">
                             <h5 class="body-color font-18 fw-medium mb-3
@@ -623,7 +657,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="tf__slingle_blog mt-5 h-100">
                             <a href="" class="tf__blog__img" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -692,16 +726,18 @@
                 </div>
             </div>
         </section>
+    <!-------------------------- Ending Of Ninth Section ----------------------------->
 
+    <!-------------------------- Subscribe Section ----------------------------->
         <div class="tf__subscribe">
             <div class="tf__subscribe_overlay pt-130 pb-130">
                 <div class="container">
-                    <div class="row" data-aos="fade-up-right">
+                    <div class="row">
                         <div class="col-lg-6 col-md-10 col-12 m-auto">
                             <div class="tf__subscribe_text">
                                 <h3 class="text-white text-center font-40 fw-900 mb-5">SUBSCRIBE MY NEWSLETTER</h3>
                                 <form action="#">
-                                    <input type="text" placeholder="Enter Your Email">
+                                    <input type="text" name="email" placeholder="Enter Your Email" required>
                                     <button type="submit" class="download-btn border-0">Notify Now</button>
                                 </form>
                             </div>
@@ -710,12 +746,16 @@
                 </div>
             </div>
         </div>
-    </main>
+    <!-------------------------- Subscribe Section ----------------------------->
 
+    </main>
+    <!---------------------------- Ending Of Main --------------------------------->
+
+    <!---------------------------- Starting Of Footer --------------------------------->
     <footer>
         <div class="footer pt-130">
             <div class="container">
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-lg-4 col-12">
                         <div class="tf__footer_content d-flex">
                             <div class="icon">
@@ -759,7 +799,7 @@
                     </div>
 
                 </div>
-                <div class="row" data-aos="fade-up-right">
+                <div class="row">
                     <div class="col-12">
                         <div class="tf__footer_copyright">
                             <p class="text-color font-18 opacity">© CodeeFly 2025 | All Rights Reserved</p>
@@ -774,8 +814,9 @@
             </div>
         </div>
     </footer>
+    <!---------------------------- Ending Of Footer --------------------------------->
 
-
+    <!---------------------------- OffCanvas --------------------------------->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header d-flex justify-content-between">
             <div class="offcanvas-title" id="offcanvasExampleLabel">
@@ -872,8 +913,9 @@
             </div>
         </div>
     </div>
+    <!---------------------------- OffCanvas --------------------------------->
 
-
+    <!---------------------------- Modal For AI --------------------------------->
     <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -915,15 +957,16 @@
                     <div class="comment-inner">
                         <h3 class="title mb-4">Leave a Reply</h3>
                         <div class="tf__design_form form">
-                            <form action="#">
+                            <form action="https://api.web3forms.com/submit" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
-                                        <input type="text" placeholder="Your Name" class="input">
-                                        <input type="email" placeholder="Your Email">
-                                        <input type="text" placeholder="Phone Number" class="text">
+                                        <input type="hidden" name="access_key" value="df2a89f3-f9c8-4737-8ae5-260466ec7bc2">
+                                        <input type="text" name="name" placeholder="Your Name" class="input" required>
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                        <input type="text" name="phone" placeholder="Phone Number" class="text" required>
                                     </div>
                                     <div class="col-lg-6 col-12">
-                                        <textarea rows="4" placeholder="Message" id="textarea"></textarea>
+                                        <textarea rows="4" placeholder="Message" id="textarea" required></textarea>
                                     </div>
                                     <div class="col-12">
                                         <div>
@@ -938,8 +981,9 @@
             </div>
         </div>
     </div>
+    <!---------------------------- Modal For AI --------------------------------->
 
-
+    <!---------------------------- Modal For Blockchain --------------------------------->
     <div class="modal fade" id="staticBackdrop1" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -967,15 +1011,16 @@
                     <div class="comment-inner">
                         <h3 class="title mb-4">Leave a Reply</h3>
                         <div class="tf__design_form form">
-                            <form action="#">
+                            <form action="https://api.web3forms.com/submit" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
-                                        <input type="text" placeholder="Your Name" class="input">
-                                        <input type="email" placeholder="Your Email">
-                                        <input type="text" placeholder="Phone Number" class="text">
+                                        <input type="hidden" name="access_key" value="df2a89f3-f9c8-4737-8ae5-260466ec7bc2">
+                                        <input type="text" name="name" placeholder="Your Name" class="input" required>
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                        <input type="text" name="phone" placeholder="Phone Number" class="text" required>
                                     </div>
                                     <div class="col-lg-6 col-12">
-                                        <textarea rows="4" placeholder="Message" id="textarea"></textarea>
+                                        <textarea name="message" rows="4" placeholder="Message" id="textarea" required></textarea>
                                     </div>
                                     <div class="col-12">
                                         <div>
@@ -990,8 +1035,9 @@
             </div>
         </div>
     </div>
+    <!---------------------------- Modal For Blockchain --------------------------------->
 
-
+    <!---------------------------- Modal For Coding --------------------------------->
     <div class="modal fade" id="staticBackdrop2" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -1021,15 +1067,16 @@
                     <div class="comment-inner">
                         <h3 class="title mb-4">Leave a Reply</h3>
                         <div class="tf__design_form form">
-                            <form action="#">
+                            <form action="https://api.web3forms.com/submit" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
-                                        <input type="text" placeholder="Your Name" class="input">
-                                        <input type="email" placeholder="Your Email">
-                                        <input type="text" placeholder="Phone Number" class="text">
+                                        <input type="hidden" name="access_key" value="df2a89f3-f9c8-4737-8ae5-260466ec7bc2">
+                                        <input type="text" name="name" placeholder="Your Name" class="input" required>
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                        <input type="text" name="phone" placeholder="Phone Number" class="text" required>
                                     </div>
                                     <div class="col-lg-6 col-12">
-                                        <textarea rows="4" placeholder="Message" id="textarea"></textarea>
+                                        <textarea rows="4" name="message" placeholder="Message" id="textarea" required></textarea>
                                     </div>
                                     <div class="col-12">
                                         <div>
@@ -1044,13 +1091,28 @@
             </div>
         </div>
     </div>
+    <!---------------------------- Modal For Coding --------------------------------->
 
-
+    <!---------------------------- Bootstrap Script --------------------------------->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!---------------------------- Bootstrap Script --------------------------------->
+
+    <!---------------------------- Isotope Script --------------------------------->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!---------------------------- Isotope Script --------------------------------->
+
+    <!---------------------------- Website Script --------------------------------->
     <script src="./assets/js/script.js"></script>
+    <!---------------------------- Website Script --------------------------------->
+
+    <!---------------------------- Swiper Script --------------------------------->
     <script src="./swiper/swiper.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!---------------------------- Swiper Script --------------------------------->
+
+    <!---------------------------- AOS Script --------------------------------->
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <!---------------------------- AOS Script --------------------------------->
+
 
     <script>
         var swiper = new Swiper(".mySwiper", {
@@ -1081,7 +1143,7 @@
             $row.isotope({ filter: filterValue });
         });
 
-        AOS.init();
+        // AOS.init();
     </script>
 </body>
 
